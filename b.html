@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>fieldest</title>
+    </head>
+    <body bgcolor="red">
+       <form> 
+            <fieldset>
+                    <legend>Personal Information </legend>
+                <div>
+                    <label for="fn">first Name </label>
+                    <input type="text"id="fn" name="firstname">
+                </div>
+                <div>
+                    <label for="ln">Last Name </label>
+                    <input type="text"id="ln" name="lastname">
+                </div>
+                <div>
+                    <label for="email">Email </label>
+                    <input type="email"id="email" name="email" >
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <label>Gender</label>
+                <div>
+                <label for="male">male</label>
+                <input type="radio" name="gender" value="male" id="male">
+            </div>
+            <div>
+                <label for="female">female</label>
+                <input type="radio" name="gender" value="female" id="female">
+            </div>
+            </div> 
+            </fieldset>
+            <fieldset> 
+                <legend>Personal</legend>
+                <div> 
+                    <label for="bio">bio</label>
+                    <textarea  rows="20 cols="20" type="text"name="bio" id="bio"></textarea>
+                </div>
+            </fieldset>
+            <input type="submit" value="submit" name="submit">
+        </form>
+    </body>
+    </html>
