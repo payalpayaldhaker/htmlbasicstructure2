@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fieldset</title>
+    <style> 
+
+        @media only screen   And (max-width: 576px) {
+            
+                width: 500px;
+            
+            
+        }
+    </style>
+</head>
+<body>
+        <form> 
+                <fieldset> 
+                    <legend>personal Information</legend>
+                        <div> 
+                            <label for="fn">First Name</label>
+                            <input  id="fn" type="text" name="fname"   required>
+                        </div>
+
+                        <div> 
+                            <label for="ln">Last Name</label>
+                            <input type="text" name="lname" id="ln" required>
+                        </div>
+                        <div> 
+                            <label for="d">Date of Birth</label>
+                            <input type="date" name="date" id="d" required>
+                        </div>
+                       
+                        <div> 
+                            <legend>Gender</legend>
+                            <label for="male">male</label>
+                            <input type="radio" name="male" id="male" checked required>
+                        </div>
+                        <div> 
+                            <label for="female">female</label>
+                            <input type="radio" name="female" value="female id="female" required>
+                        </div>
+                        
+                        <div> 
+                            <label for="bio">bio</label>
+                            <textarea name="bio" id="" cols="30" rows="10"> payal dhakad</textarea> 
+                        </div>
+             </fieldset>
+             <fieldset> 
+                <legend>Education Information</legend>
+                    <div> 
+                        <label for="sn">School</label>
+                        <input  id="sn" type="text" name="school" required>
+                    </div>
+
+                    
+                    <div> 
+                        <label for="unv">Univercity</label>
+                        <select name="Univercity" id="unv">
+                            <option value="iit"> India Institute Tecnology</option>
+                            <option value="ait">America Institute Tecnology</option>
+
+
+                        </select>
+
+
+                    </div>
+         </fieldset>
+         <fieldset> 
+                <legend>Hobbies</legend>
+                <div>
+                <label for="ply"> playing</label>
+                <input type="checkbox" id="ply" name="hobbies" value="ply">
+            </div>
+            <div>
+                <label for="danc"> dancing</label>
+                <input type="checkbox" id="danc" name="hobbies" value="dancing">
+            </div>
+
+         </fieldset>
+         <input type="submit" name="submit" value="submit" required>
+
+
+
+
+
+
+        </form>
+</body>
+</html>
